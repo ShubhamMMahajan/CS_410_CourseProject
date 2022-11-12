@@ -2,8 +2,8 @@ import os
 from collections import defaultdict
 import re
 
-data_folder = "\data"
-data_files = os.listdir(os.getcwd() + data_folder)
+data_folder = "data"
+data_files = os.listdir(os.path.join(os.getcwd(),data_folder))
 #print(data_files)
 
 tf = defaultdict(int)
@@ -20,7 +20,7 @@ def write_tf_file():
 	tf_file.close()
 
 for file in data_files:
-	article_file = open(os.getcwd() + data_folder + "/" + file, 'r')
+	article_file = open(os.path.join(os.getcwd(),data_folder,file), 'r')
 	articles = article_file.readlines()
 	article_text = "";
 	for i in range(1, len(articles)): # ignore header
