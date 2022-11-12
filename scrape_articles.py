@@ -9,7 +9,7 @@ data_files = os.listdir(os.getcwd() + data_folder)
 tf = defaultdict(int)
 
 def calculate_tf(article_text):
-	tokens = re.split(r'[\W_]+', article_text.lower().encode('ascii',errors='ignore').decode())
+	tokens = re.split(r'[\W_]+', article_text.lower().encode('ascii',errors='ignore').decode(errors='ignore'))
 	for token in tokens:
 		tf[token] += 1
 
