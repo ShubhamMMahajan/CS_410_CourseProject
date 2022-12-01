@@ -29,9 +29,6 @@ def write_tf_file():
 
 def write_idf_file():
 	idf_file = open("idf.txt", 'w')
-	print(sorted(df.items(),key=lambda x: x[1]))
-	print(df["the"])
-	print(doc_count)
 	for word, doc_freq in sorted(df.items(),key=lambda x: x[1],reverse=True):
 		idf = math.log(doc_count / doc_freq, 2)
 		idf_file.write(word + "\t" + str(idf) + "\n")
