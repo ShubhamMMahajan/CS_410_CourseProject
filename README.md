@@ -1,6 +1,6 @@
 # Simplifying English Text  
 The web application is located at the following url. http://ec2-18-212-86-77.compute-1.amazonaws.com:5000/form  
-Presentation can be found in presentation.mp4 in this git repository  
+Presentation can be found in presentation.mp4 in this git repository https://github.com/ShubhamMMahajan/CS_410_CourseProject/blob/main/presentation.mp4  
   
 ## Code Overview  
 This project takes in complex text and simplifies it. This can be useful when trying to read research papers with complex jargon. This will be helpful for people who may not be proficient in english.  
