@@ -14,4 +14,6 @@ The web application is located at the following url. http://ec2-18-212-86-77.com
 The usage should be fairly intuitive. Users can enter in complex text using the input box provided then hit the submit button. The submit button will display the complex text as well as the simplified text. There is a button to go back to original page if the user wants to enter in another input.  
 ## Contribution  
 This is a one person team so I (Shubham Mahajan) have written all this code.  
+## Self Evaluation  
+I have completed what I had planned. Unfortunately, I did not get the expected outcome as I did not account for sentence structure or word level ambiguity.
 
